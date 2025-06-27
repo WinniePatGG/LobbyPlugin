@@ -1,0 +1,21 @@
+name: LobbyPlugin
+version: '1.0'
+main: de.winniepat.lobbyPlugin.LobbyPlugin
+api-version: '1.21'
+load: POSTWORLD
+authors: [ WinniePatGG ]
+description: Lobby Plugin
+website: https://www.winniepat.de
+commands:
+  spawn:
+  manage:
+    permission: lunaris.command.manage
+  discord:
+    aliases:
+      - dc
+  pet:
+    description: Open pet selector
+  trail:
+    permission: lunaris.command.trail
+  coding:
+    permission: lunaris.command.coding
