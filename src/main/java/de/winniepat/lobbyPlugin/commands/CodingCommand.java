@@ -113,7 +113,6 @@ public class CodingCommand implements CommandExecutor {
                 sender.sendMessage("§cError while executing.");
             }
         }
-
         return true;
     }
 

@@ -49,7 +49,6 @@ public final class LobbyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new CodingCleanupListener(codingCommand), this);
         getServer().getPluginManager().registerEvents(new ManageInventoryListener(), this);
         getServer().getPluginManager().registerEvents(new RespawnListener(), this);
-        getServer().getPluginManager().registerEvents(new JoinClearListener(), this);
         getServer().getPluginManager().registerEvents(new ServerJoinListener(), this);
         getServer().getPluginManager().registerEvents(trailGUI, this);
         getServer().getPluginManager().registerEvents(new VoidFallListener(this), this);
